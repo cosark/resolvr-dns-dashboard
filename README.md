@@ -224,6 +224,10 @@ npm run build   # outputs to frontend/dist/ — serve it with any static file ho
 
 Whatever serves `frontend/dist/` must be reachable at the origin you set as `FRONTEND_ORIGIN` on the backend, and the build must have been made with `VITE_BACKEND_URL` pointing at wherever the backend is reachable from the browser.
 
+## One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/Resolvr%20DNS%20Dashboard/)
+
 ## Configuration
 
 On first boot (empty database), the backend seeds these accounts from the environment variables above — both are real, working logins on a fresh install:
